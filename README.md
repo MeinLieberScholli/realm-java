@@ -5,8 +5,8 @@
 >
 
 <picture>
-    <source srcset="./media/logo-dark.svg" media="(prefers-color-scheme: dark)" alt="realm by MongoDB">
-    <img src="./media/logo.svg" alt="realm by MongoDB">
+    <source srcset="./media/logo-dark.svg" media="(prefers-color-scheme: dark)" alt="realm">
+    <img src="./media/logo.svg" alt="realm">
 </picture>
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.realm/realm-gradle-plugin?colorB=4dc427&label=Maven%20Central)](https://search.maven.org/artifact/io.realm/realm-gradle-plugin)
@@ -29,12 +29,14 @@ The [Realm Kotlin SDK](https://github.com/realm/realm-kotlin) is now GA and can 
 
 ## Getting Started
 
-Please see the [detailed instructions in our docs](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/install/) to add Realm to your project.
+Please see the [Quick Start](docs/guides/quick-start-local.md) to add Realm to your project.
 
 ## Documentation
 
-Documentation for Realm can be found at [mongodb.com/docs/atlas/device-sdks/sdk/java/](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/).
-The API reference is located at [mongodb.com/docs/atlas/device-sdks/sdk/java/api/](https://www.mongodb.com/docs/atlas/device-sdks/sdk/java/api/).
+Documentation for Realm can be found in the [docs/](docs/README.md) directory.
+
+The Javadoc and Kotlin Extensions API Reference docs can be generated
+from source.
 
 ## Getting Help
 
@@ -221,8 +223,6 @@ that you can run `./gradlew :realm:realm-library:compileBaseDebugAndroidTestSour
 ## Examples
 
 The `./examples` folder contains many example projects showing how Realm can be used. If this is the first time you checkout or pull a new version of this repository to try the examples, you must call `./gradlew installRealmJava` from the top-level directory first. Otherwise, the examples will not compile as they depend on all Realm artifacts being installed in `mavenLocal()`.
-
-Standalone examples can be [downloaded from website](https://www.mongodb.com/docs/realm/sdk/java/quick-starts/quick-start-local/#complete-example).
 
 ## Running Tests on a Device
 

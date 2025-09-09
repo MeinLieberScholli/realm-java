@@ -34,3 +34,6 @@ Live objects mean that your data is always up-to-date.
 You can register a notification handler to watch for changes and perform some
 logic, such as updating your UI.
 
+## Examples
+
+See the [examples/](examples/) directory.
