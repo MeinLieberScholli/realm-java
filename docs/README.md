@@ -36,4 +36,4 @@ logic, such as updating your UI.
 
 ## Examples
 
-See the [examples/](examples/) directory.
+See the [examples/](..examples/) directory.
